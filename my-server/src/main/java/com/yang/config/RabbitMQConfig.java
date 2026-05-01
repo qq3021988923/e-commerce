@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 public class RabbitMQConfig {
 
-    // ==================== 场景1：学生操作通知 ====================
+    // ==================== 场景1：订单操作通知 ====================
     
     /**
      * 交换机：订单相关操作的直连交换机
